@@ -1,0 +1,77 @@
+/* Скидання стилів */
+
+@import url("reset.css");
+
+/*Основні стилі*/
+
+* {
+	color: rgb(78, 72, 72);
+}
+
+p {
+	color: black;
+}
+
+.head-list-part-2,
+.head-list-part-1,
+.head-list-part-3,
+.head-list-part-4 {
+	color: blue;
+}
+
+.footer-item-text,
+.head-contacts,
+.space-item {
+	color: blueviolet;
+}
+
+.subtitle {
+	color: rgb(0, 0, 231);
+}
+
+.upbuttom,
+.downbuttom,
+.returnbutton {
+	color: green;
+}
+
+
+.gallerybuttom {
+	color: red;
+}
+
+.hero-title,
+.subtitle-descr {
+	color: brown;
+}
+
+.hero-subtitle-text {
+	color: #1a009c;
+}
+.start-block p {
+	color: pink;
+}
+
+.hero-span {
+	color: brown;
+}
+
+[class*="text-achievements"] {
+	color: yellowgreen;
+}
+
+li.achievements-item{
+	color: rgba(165, 42, 42, 0.548);
+}
+
+.link {
+	color: violet;
+}
+
+.planets-img p {
+	color: rgb(183, 20, 247);
+}
+
+.galaxies-img p {
+	color: blue;
+}
