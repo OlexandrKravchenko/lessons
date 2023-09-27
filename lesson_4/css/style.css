@@ -25,8 +25,20 @@ p {
 	color: blueviolet;
 }
 
-.subtitle {
+#huble {
 	color: rgb(0, 0, 231);
+}
+
+.hero-subtitle-text.hero-text {
+	color: aqua;
+}
+
+.hero-title-text span {
+	color: red;
+}
+
+.hero-title-block > p {
+	color: gold;
 }
 
 .upbuttom,
@@ -35,6 +47,9 @@ p {
 	color: green;
 }
 
+.hero-title-block ~ a {
+	color: green;
+}
 
 .gallerybuttom {
 	color: red;
@@ -48,12 +63,17 @@ p {
 .hero-subtitle-text {
 	color: #1a009c;
 }
+
 .start-block p {
 	color: pink;
 }
 
 .hero-span {
 	color: brown;
+}
+
+.text + p {
+	color: rgb(158, 0, 0);
 }
 
 [class*="text-achievements"] {
