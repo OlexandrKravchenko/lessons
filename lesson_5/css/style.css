@@ -1,0 +1,79 @@
+/* Підключення шрифтів */
+/*
+@import url("fonts.css");
+*/
+
+
+/*google-fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap');
+
+/* скидання стилів */
+
+@import url("reset.css");
+
+/* Основні стилі */
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+}
+
+.title,
+.subtitle,
+.subtitle-blue {
+	font-family: "Poppins", sans-serif;
+	line-height: 1.27;
+	text-align: center;
+	text-shadow: 5px 5px 5px grey;
+	word-spacing: 12px;
+}
+
+.title {
+	font-size: 40px;
+	font-weight: 700;
+	color: #37393F;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+.title,
+.subtitle {
+	text-transform: capitalize;
+}
+
+.subtitle {
+	font-size: 30px;
+	color: #37393F;
+}
+
+.subtitle-blue {
+	font-size: 20px;
+	color: #6B77E5;
+}
+
+.subtitle,
+.subtitle-blue {
+	font-weight: 600;
+}
+
+.text {
+	line-height: 1.46;
+	text-indent: 30px;
+}
+
+.list {
+	text-shadow: 5px 3px 10px #035c1d;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+}
+
+.numb-list {
+	text-shadow: 2px 2px 3px #083fe4;
+	text-transform: lowercase;
+}
+
+.trick {
+	text-decoration: line-through;
+}
