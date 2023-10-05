@@ -1,0 +1,168 @@
+/* Підключення шрифтів */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter:wght@400;500&family=Poppins:wght@600;700&display=swap');
+
+/* скидання стилів */
+
+@import url("reset.css");
+
+/* Основні стилі */
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+	font-style: normal;
+}
+
+
+.loft {
+	width: 1600px;
+	margin: 10px 10px 0px 10px;
+	background: #FFF9F4;
+}
+
+.loft p {
+	width: 500px;
+	margin: 0 auto;
+	text-shadow: 2px 1px 3px #00d092;
+}
+
+.text {
+	font-weight: 400;
+	line-height: 1.46; 
+}
+
+.link {
+	text-shadow: 2px 1px 3px #083fe4;
+}
+
+.hero {
+	max-width: 1600px;
+	margin: 0px 10px 0px 10px;
+	background-color: antiquewhite;
+	padding: 140px 215px;
+}
+
+.production {
+	max-width: 1169px;
+	max-height: 518px;
+	font-size: 0;
+}
+
+.subtitle-orange {
+	max-width: 183px;
+	color: #D06B00;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.title {
+	max-width: 526px;
+	color: #0E333D;
+	font-family: DM Serif Text;
+	font-size: 59px;
+	font-weight: 400;
+	line-height: 1.47;
+}
+
+.production-text {
+	max-width: 526px;
+}
+
+.photo-hero {
+	max-height: 518px;
+	max-width: 1169px;
+	margin-top: -210px;
+}
+
+.photo-hero p {
+	display: inline-block;
+	color: #474747;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.8; 
+	width: 563px;
+	padding-bottom: 30px;
+	margin-right: 38px;
+}
+
+
+.earrings-girl {
+	vertical-align: bottom;
+	margin-right: 22px;
+}
+
+.advantages {
+	max-width: 692px;
+	margin: 110px auto 0 auto;
+	overflow: auto;
+}
+
+.benefits-text {
+	margin-bottom: 40px;
+}
+
+.advantages h2 {
+	margin-bottom: 5px;
+}
+
+
+.benefits-list {
+	margin: -250px 0px 50px 350px;
+}
+
+.benefits-list h2 {
+	margin-bottom : 15px;
+}
+
+.benefits-list li:not(:last-child){
+	margin-bottom: 30px;
+}
+
+.meeting {
+	margin-bottom: 42px;
+}
+
+.subtitle {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+}
+
+.subtitle-blue {
+	color: #6B77E5;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12px;
+}
+
+.subtitle-green {
+	color: #40DDB6;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 21px;
+}
+
+.office-meeting {
+	margin-bottom: 37px;
+}
+
+.questions h2 {
+	margin-bottom: 5px;
+}
+
+.basement {
+	width: 1600px;
+	margin: 0px 10px 10px 10px;
+	background: #FFF9F4;
+}
+
+
