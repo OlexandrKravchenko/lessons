@@ -15,9 +15,8 @@ body {
 	font-style: normal;
 }
 
-
 .loft {
-	width: 1600px;
+	max-width: 100%;
 	margin: 10px 10px 0px 10px;
 	background: #FFF9F4;
 }
@@ -38,15 +37,13 @@ body {
 }
 
 .hero {
-	max-width: 1600px;
 	margin: 0px 10px 0px 10px;
 	background-color: antiquewhite;
-	padding: 140px 215px;
 }
 
 .production {
-	max-width: 1169px;
-	max-height: 518px;
+	width: 1169px;
+	margin: 0 auto;
 	font-size: 0;
 }
 
@@ -56,6 +53,7 @@ body {
 	font-size: 28px;
 	font-weight: 400;
 	line-height: normal;
+	margin-bottom: 13px;
 }
 
 .title {
@@ -65,60 +63,77 @@ body {
 	font-size: 59px;
 	font-weight: 400;
 	line-height: 1.47;
+	margin-bottom: 25px;
 }
 
 .production-text {
-	max-width: 526px;
-}
-
-.photo-hero {
-	max-height: 518px;
-	max-width: 1169px;
-	margin-top: -210px;
-}
-
-.photo-hero p {
 	display: inline-block;
+	max-width: 526px;
+	margin-right: 38px;
+	margin-top: 140px;
+}
+
+.production-text p{
 	color: #474747;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 1.8; 
-	width: 563px;
-	padding-bottom: 30px;
-	margin-right: 38px;
+	max-width: 563px;
 }
 
+.photo-hero {
+	margin-top: 140px;
+	display: inline-block;
+	margin-bottom: 140px;
+	vertical-align: top;
+	max-width: 568px;
+}
 
 .earrings-girl {
-	vertical-align: bottom;
 	margin-right: 22px;
 }
 
 .advantages {
 	max-width: 692px;
-	margin: 110px auto 0 auto;
-	overflow: auto;
+	margin: 0 auto;
+	
+}
+
+.advantages h2 {
+	margin-bottom: 12px;
 }
 
 .benefits-text {
 	margin-bottom: 40px;
 }
 
-.advantages h2 {
-	margin-bottom: 5px;
+.desk-flower {
+	margin-right: 29px;
 }
 
+.benefits {
+	margin-bottom: 50px;
+}
+
+.benefits-box {
+	font-size: 0;
+}
 
 .benefits-list {
-	margin: -250px 0px 50px 350px;
+	display: inline-block;
+	width: 332px;
 }
 
 .benefits-list h2 {
 	margin-bottom : 15px;
 }
 
-.benefits-list li:not(:last-child){
-	margin-bottom: 30px;
+.list {
+	font-size: 18px;
+}
+
+.list li:not(:last-child){
+	margin-bottom: 35px;
 }
 
 .meeting {
@@ -148,19 +163,23 @@ body {
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 1.27;
-	margin-bottom: 21px;
+	margin-bottom: 23.5px;
 }
 
 .office-meeting {
 	margin-bottom: 37px;
 }
 
+.questions {
+	padding-bottom: 140px;
+}
+
 .questions h2 {
-	margin-bottom: 5px;
+	margin-bottom: 12px;
 }
 
 .basement {
-	width: 1600px;
+	width: 100%px;
 	margin: 0px 10px 10px 10px;
 	background: #FFF9F4;
 }
