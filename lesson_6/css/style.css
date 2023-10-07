@@ -59,7 +59,7 @@ body {
 .title {
 	max-width: 526px;
 	color: #0E333D;
-	font-family: DM Serif Text;
+	font-family: DMSerifText;
 	font-size: 59px;
 	font-weight: 400;
 	line-height: 1.47;
@@ -179,7 +179,7 @@ body {
 }
 
 .basement {
-	width: 100%px;
+	width: 100%;
 	margin: 0px 10px 10px 10px;
 	background: #FFF9F4;
 }
