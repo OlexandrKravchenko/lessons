@@ -16,13 +16,13 @@ body {
 }
 
 .loft {
-	max-width: 100%;
-	margin: 10px 10px 0px 10px;
+	max-width: auto;
+	padding: 10px 10px 10px 10px;
 	background: #FFF9F4;
 }
 
 .loft p {
-	width: 500px;
+	width: 400px;
 	margin: 0 auto;
 	text-shadow: 2px 1px 3px #00d092;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .hero {
-	margin: 0px 10px 0px 10px;
+	padding: 0px 10px 0px 10px;
 	background-color: antiquewhite;
 }
 
@@ -45,6 +45,7 @@ body {
 	width: 1169px;
 	margin: 0 auto;
 	font-size: 0;
+	padding: 140px 0;
 }
 
 .subtitle-orange {
@@ -70,7 +71,7 @@ body {
 	display: inline-block;
 	max-width: 526px;
 	margin-right: 38px;
-	margin-top: 140px;
+	
 }
 
 .production-text p{
@@ -82,9 +83,9 @@ body {
 }
 
 .photo-hero {
-	margin-top: 140px;
+	
 	display: inline-block;
-	margin-bottom: 140px;
+	
 	vertical-align: top;
 	max-width: 568px;
 }
@@ -179,9 +180,11 @@ body {
 }
 
 .basement {
-	width: 100%;
-	margin: 0px 10px 10px 10px;
+	width: auto;
+	padding: 10px 10px 10px 10px;
 	background: #FFF9F4;
 }
 
-
+.basement .link {
+	margin-bottom: 20px;
+}
