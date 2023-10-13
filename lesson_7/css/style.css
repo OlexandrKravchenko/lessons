@@ -1,0 +1,380 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+}
+
+ul a {
+	width: 180px;
+	display: inline-block;
+	outline: 5px solid burlywood;
+	text-align: center;
+}
+
+span {
+	color: #40DDB6;
+	font-weight: 400;
+}
+
+.fonts span {
+	font-weight: 500;
+}
+
+li {
+	padding-left: 10px;
+	opacity: 0,5;
+}
+
+.loft {
+	padding: 25px;
+	outline: 3px solid brown;
+}
+
+.loft p {
+	max-width: 350px;
+	margin: 0 auto;
+	box-shadow:
+	 inset 0 0 10px 1px green,
+	 5px 5px 10px 1px rgb(44, 53, 44);
+	padding: 5px;
+}
+
+.loft-buton,
+.basement-buton {
+	max-width: 90px;
+	font-family: "Causten", sans-serif;
+	outline: 2px dotted blue;
+	padding: 5px 0 5px 0px;
+	box-shadow: inset 0 0 10px 1px blue;
+	text-align: center;
+}
+
+.basement-buton,
+.loft ul {
+	margin-bottom: 25px;
+}
+
+.basement li,
+.loft li {
+	margin-bottom: 12px;
+}
+
+.square {
+	width: 12px;
+	height: 12px;
+	background: #40DDB6;
+	display: inline-block;
+}
+
+.caption {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 11px;
+}
+
+.text {
+	font-weight: 400;
+	line-height: 1.46;
+}
+
+.main-block {
+	max-width: 1238px;
+	margin: 0 auto;
+	padding: 100px 10px;
+	border-bottom: 5px dotted red;
+}
+
+.title-block {
+	text-align: center;
+}
+
+.title-text {
+	color: #37393F;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 16px;
+	display: inline-block;
+}
+
+.title {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1,21;
+	margin-bottom: 70px; 
+}
+
+.icons {
+	margin-bottom: 100px;
+}
+
+.icons .text {
+	margin-bottom: 32px;
+}
+
+.subtitle {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 11px;
+}
+
+.photography {
+	margin-bottom: 100px;
+}
+
+.photography .text:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+/* друга частина */
+
+.articles {
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 100px 10px 100px 10px;
+}
+
+.articles *:not(:last-child) {
+	margin-bottom: 35px;
+}
+
+.articles .subtitle {
+	margin-bottom: 13px;
+}
+
+.dotted {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #7D7D7D;
+	border-radius: 50%;
+	margin-bottom: 3px;
+}
+
+.list span {
+	margin-right: 10px;
+	text-align: center;
+}
+
+/* Третя частина */
+
+.euforia {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 100px 10px 100px 10px;
+	border-top: 5px dashed violet;
+	border-bottom: 5px double #2f00ff;
+}
+
+.title-euforia {
+	color: #3C4242;
+	font-family: "Core Sans C", sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1.20;
+	letter-spacing: 0.56px;
+	margin-bottom: 30px;
+}
+
+.subtitle-euforia {
+	color: #807D7E;
+	font-family: "Core Sans C", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.68;
+	letter-spacing: 0.4px;
+}
+
+.subtitle-euforia:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+.text-euforia {
+	color: #807D7E;
+	font-family: "Causten", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.68; 
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+}
+
+.text-euforia p:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.text-euforia span {
+	color: #807D7E;
+	font-family: "Causten", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.68; 
+	letter-spacing: 0.4px;
+}
+
+/* Четверта частина */
+
+
+.jewels {
+	max-width: 1103px;
+	margin: 0 auto;
+	font-size: 0;
+	padding: 100px 0 100px 0;
+}
+
+.jewels-text-block {
+	max-width: 503px;
+	display: inline-block;
+	padding-top: 70px;
+	margin-right: 75px;	
+}
+
+.title-jewels {
+	color: #000;
+	font-family: "Cormorant Infant", serif;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 31px;
+	text-transform: capitalize;
+}
+
+.subtitle-jewels {
+	color: #D58417;
+	font-family: "Cormorant Infant", serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1; 
+	margin-bottom: 27px;
+	text-transform: uppercase;
+}
+
+.jewels-text {
+	color: #606060;
+	font-family: "Cormorant Infant", serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.jewels-photo-block {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.necklace-block,
+.earrings-block {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.earrings-block {
+	border: 1px solid #502203;
+	border-radius: 235px;	
+	width: 307px;
+	height: 500px;	
+}
+
+.necklace-block {
+	margin-right: 30px;
+	border: 1px solid #502203;
+	border-radius: 235px;	
+	width: 177px;
+	height: 336px;	
+}
+
+.necklace {
+	width: 177px;
+	height: 336px;	
+	margin-left: -10px;
+	margin-top: 14px;
+	border-radius: 235px;
+}
+
+.earrings {
+	width: 307px;
+	height: 500px;	
+	margin-left: -10px;
+	margin-top: 19px;
+	border-radius: 235px;
+}
+
+/* 5 */
+
+.arrow-block {
+	max-width: 1260px;
+	padding: 100px;
+	margin: 0 auto;
+	border-top: 5px dashed #06085a;
+}
+
+.arrow-bottom:hover,
+.arrow-top:hover,
+.arrow-left:hover,
+.arrow-right:hover {
+	opacity: 0;
+}
+
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid red;
+	border-bottom: 50px solid transparent;
+	display: inline-block;
+	margin-right: 200px;
+}
+
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid #12da00;
+	border-bottom: 50px solid transparent;
+	display: inline-block;
+	margin-right: 200px;
+}
+
+.arrow-top {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blueviolet;
+	display: inline-block;
+	margin-right: 200px;
+}
+
+.arrow-bottom {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid blue;
+	display: inline-block;
+}
+
+	/* footer */
+
+.basement {
+	padding: 25px;
+	outline: 3px solid brown;
+}
+
+.basement h5 {
+	max-width: 350px;
+	margin: 0 auto;
+	font-family: "Cormorant Infant", serif;
+}
