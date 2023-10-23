@@ -1,0 +1,399 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: "Causten", sans-serif;
+	font-size: 20px;
+	color: #807D7E;
+}
+
+.loft,
+.basement {
+	padding: 1%;
+	background-color: antiquewhite;
+}
+
+.description {
+	font-weight: 600;
+	max-width: 333px;
+	margin: 0  auto;
+	border: 5px solid transparent;
+	box-shadow: 5px 10px 20px 1px rgba(105, 0, 0, 0.507);
+	text-align: center;
+	background-color: #fff;
+	border-radius: 12px;
+	margin-bottom: 15px;
+}
+
+.loft-buton,
+.basement-buton {
+	margin-bottom: 15px;
+}
+
+.loft-buton a,
+.basement-buton a {
+	display: inline-block;
+	width: 100px;
+	background-color: #f7b56b;
+	border-radius: 5px;
+	text-align: center;
+	border: 5px solid transparent;
+}
+
+.fon {
+	background: url(../img/fon.jpg) fixed;
+	padding: 50px;
+}
+
+.firstblok {
+	max-width: 1240px;
+	margin: 0 auto 50px;
+	padding: 183px 0 175px 74px;
+	background: 
+		url("../img/foliage.jpg") 0 0 / 614px no-repeat,
+		url("../img/people_smile.jpg") right top / 626px no-repeat;		
+}
+
+.firstblok-article {
+	max-width: 466px;
+}
+
+.subtitle {
+	max-width: 466px;
+	color: #FFF;
+	font-family: "Core Sans C", sans-serif;
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 1.47;
+	letter-spacing: 0.208px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.firstblok-text {
+	max-width: 451px;
+	color: #FFF;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+
+.firstblok-text span {
+	text-transform: uppercase;
+}
+
+.firstblok-buttom a {
+	display: inline-block;
+	max-width: 168px;
+	color: #3C4242;	
+	font-size: 18px;
+	font-weight: 600;
+	padding: 12px 44px;
+	border-radius: 8px;
+	background: #FFF;
+}
+
+/* другий блок */
+
+.secondblok {
+	max-width: 1240px;
+	margin: 0 auto 50px;
+	background: white url(../img/bgcolor.svg) 0 3px no-repeat;
+	padding-left: 21px;
+}
+
+.secondblok-title {
+	color: #3C4242;
+	font-family: "Core Sans C", sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 1.2; 
+	letter-spacing: 0.56px;
+	margin-bottom: 30px;
+}
+
+.secondblok-subtitle {
+	color: #807D7E;
+	font-family: "Core Sans C", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.68;
+	letter-spacing: 0.4px;	
+}
+
+.secondblok-subtitle:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+.text{
+	margin-bottom: 25px;
+}
+
+.text p {
+	margin-bottom: 20px;
+	font-weight: 400;
+	line-height: 1.68;
+	letter-spacing: 0.4px;
+}
+
+.text span {
+	font-weight: 700;
+}
+
+/* Третя частина */
+
+.thirdblock {
+	max-width: 693px;
+	margin: 0 auto 50px;
+	padding: 10px;
+	background: #ffffff;
+}
+
+
+.thirdblock-subtitle {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 3px;
+}
+
+.thirdblock-subtitle-green {
+	color: #37393F;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	margin-bottom: 16px;
+	background: url(../img/box.svg) 0 4px / 12px no-repeat;
+	padding-left: 18px;
+}
+
+.title {
+	max-width: 413px;
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.thirdblock-text {
+	color: #7D7D7D;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+	margin-bottom: 20px; 
+}
+
+.thirdblock-text p:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.thirdblock-list {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 43px;
+}
+
+.thirdblock-list li {
+	background: url(../img/vector.svg) 0 3px / 27px no-repeat;
+	padding-left: 35px;
+}
+
+.thirdblock-list li:not(:last-child) {
+	margin-bottom: 23px;
+}
+
+.achievements {
+	max-width: 613px;
+	font-size: 0;
+	margin-bottom: 37px;
+}
+
+.experience {
+	max-width: 295px;
+	padding: 31px 32px 32px 32px;
+	margin-right: 21px;
+}
+
+.winner,
+.experience {
+	display: inline-block;
+	border: 1px solid #E3E3E3;
+}
+
+.winner-text,
+.experience-text {
+	color: #7D7D7D;
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.35;
+}
+
+.winner {
+	max-width: 296.5px;
+	padding: 31px 37px 32px 37px;
+}
+
+.experience-text-block {
+	background: url(../img/iconlist.jpg) 0 0 / 39.11px no-repeat;
+	padding-left: 58.11px;
+}
+
+.winner-text-block {
+	background: url(../img/Icon.jpg) 0 0 / 39.51px no-repeat;
+	padding-left: 58.51px;
+}
+
+.experience-text {
+	width: 173px;
+}
+
+.winner-text {
+	width: 164px;
+}
+
+.thirdblock-button a{
+	display: inline-block;
+	max-width: 184px;
+	padding: 22px 27px;
+	color: #FFF;
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: capitalize;
+	background: #6B77E5;;
+}
+
+/* Четвертий блок */
+
+.gallery-block {
+	max-width: 1240px;
+	margin: 0 auto;
+	padding: 10px 10px;
+	background: #FFF;
+}
+
+.gallery-subtitle-green {
+	width: 148px;
+	color: #37393F;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	background: url(../img/box.svg) 0 4px / 12px no-repeat;
+	padding-left: 18px;
+	margin: 0 auto 14px;
+}
+
+.gallery-title {
+	max-width: 687px;
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin: 0 auto 14px;
+}
+
+.gallary-text {
+	max-width: 852px;
+	margin: 0 auto 47px;
+	color: #7D7D7D;
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+}
+
+.gallary-1 {
+	max-width: 1220px;
+	font-size: 0;
+	margin-bottom: 58px;
+}
+
+.gallary-1-text h3 {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 10px;
+}
+
+.gallary-1-text p {
+	color: #7D7D7D;
+	font-family: Inter;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.46;
+	padding-left: 25px;
+	background: url(../img/envelope.svg) 0 0 / 22px no-repeat;
+}
+
+.gallary-1-1 {
+	display: inline-block;
+	width: 384px;
+	background: url(../img/desk.jpg) 0 0 / 384px no-repeat;
+	padding-top: 525px;
+	margin-right: 34px;
+}
+
+.gallary-1-2 {
+	display: inline-block;
+	width: 384px;
+	background: url(../img/freelancer.jpg) 0 0 / 384px no-repeat;
+	padding-top: 525px;
+	margin-right: 34px;
+}
+
+.gallary-1-3 {
+	display: inline-block;
+	width: 384px;
+	background: url(../img/phone.jpg) 0 0 / 384px no-repeat;
+	padding-top: 525px;
+}
+
+.gallary-2 {
+	max-width: 1220px;
+	font-size: 0;
+}
+
+.gallary-2-1 {
+	display: inline-block;
+	width: 384px;
+	background: url(../img/woman.jpg) 0 0 / 384px no-repeat;
+	padding-top: 525px;
+	margin-right: 34px;
+}
+
+.gallary-2-2 {
+	display: inline-block;
+	width: 384px;
+	background: url(../img/meeting.jpg) 0 0 / 384px no-repeat;
+	padding-top: 525px;
+	margin-right: 34px;
+}
+
+.gallary-2-3 {
+	display: inline-block;
+	width: 384px;
+	background: url(../img/cup.jpg) 0 0 / 384px no-repeat;
+	padding-top: 525px;
+}
