@@ -9,8 +9,7 @@ body {
 	color: #807D7E;
 }
 
-.loft,
-.basement {
+.loft {
 	padding: 1%;
 	background-color: antiquewhite;
 }
@@ -27,16 +26,25 @@ body {
 	margin-bottom: 15px;
 }
 
-.loft-buton,
+.basement {
+	padding: 1%;
+	background-image:linear-gradient(55.95deg, #072642 0%, #f76605 100%);
+}
+
 .basement-buton {
-	margin-bottom: 15px;
+	margin-bottom: 1%;
+}
+
+.basement h5 {
+	width: 300px;
+	margin: 0 auto;
 }
 
 .loft-buton a,
 .basement-buton a {
 	display: inline-block;
 	width: 100px;
-	background-color: #f7b56b;
+	background-color: #5f3300;
 	border-radius: 5px;
 	text-align: center;
 	border: 5px solid transparent;
