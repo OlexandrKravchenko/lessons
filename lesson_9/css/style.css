@@ -1,0 +1,869 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+}
+
+.loft,
+.basement {
+	padding: 1%;
+	background: #ddae88;
+}
+
+.loft-title {
+	color: #000;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.lesson-name {
+	color: #000;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.buttom {
+	display: inline-block;
+	padding: 5px;
+	border: 2px solid;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px 3px #000;
+} 
+
+.buttom:hover {
+	background: #F4F4F4;
+	color: black;
+	box-shadow: 0 0px 10px 3px;
+}
+
+.buttom:active {
+	box-shadow: inset 0 0 10px 1px #7D7D7D;
+}
+
+.buttom-basement {
+	margin-bottom: 25px;
+}
+
+.loft-list {
+	text-align: center;
+}
+
+.loft-list li{
+	display: inline-block;
+	border: 3px solid;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+.loft-list li:hover {
+	background: #d8c2b0;
+	box-shadow: 0 0 10px 2px;
+	border-radius: 10px;
+}
+
+.loft-list li:active {
+	box-shadow: inset 0 0 10px 1px;
+}
+
+.loft-list li:not(:last-child) {
+	margin-right: 10px;
+}
+
+.basement-list li {
+	
+	padding: 5px;
+	border: 1px solid;
+	width: 220px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.basement-list li:hover {
+	background: #d8c2b0;
+}
+
+.basement-list li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.basement-list li:active {
+	background: #F4F4F4;
+}
+
+.basement-list a {
+	display: block;
+	max-width: 220px;
+}
+
+.signature {
+	text-align: center;
+	font-family: "Cormorant Infant", serif;
+}
+
+/* Перша частина */
+
+.jewellery-block {
+	max-width: 1254px;
+	padding: 0 20px 100px 20px;
+	font-size: 0;
+	margin: 0 auto;
+}
+
+.jewellery-title {
+	max-width: 488px;
+	display: inline-block;
+	color: #000;
+	font-family: "Cormorant Infant", serif;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.15;
+	margin-right: 3px;
+	text-transform: capitalize;
+}
+
+.jewellery-title::after {
+	display: block;
+	content: "";
+	height: 3px;
+	width: 304px;
+	background: #78473B;
+	margin-top: 13px;
+}
+
+.jewellery-ring {
+	vertical-align: middle;
+	display: inline-block;
+	max-width: 334px;
+	margin-right: 55px;
+}
+
+.ring,
+.rings {
+	width: 334px;
+	height: 381px;
+	margin-left: 10px;
+	margin-top: 9px;
+	
+}
+
+.jewellery-border {
+	width: 334px;
+	height: 381px;
+	margin-bottom: 34px;
+	border: 1px solid #000;
+}
+
+.jewellery-subtitle {
+	width: 339px;
+	color: #000;
+	font-family: "Cormorant Infant", serif;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 1.13;
+	margin-bottom: 31px;
+}
+
+.jewellery-rings {
+	vertical-align: middle;
+	display: inline-block;
+	max-width: 334px;
+	padding-top: 120px;
+}
+
+.jewellery-text {
+	display: inline-block;
+	color: #000;
+	font-family: "Cormorant Infant", serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.4;
+	border-bottom: 2px dotted transparent;
+	
+}
+
+.jewellery-text:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.jewellery-text:hover {
+	background-color: #eee7e4;
+	border-bottom: 2px solid #78473B;
+	border-radius: 8px;
+	box-shadow: inset 0 0 10px 1px #78473B;
+	
+}
+
+.jewellery-text:active {
+	background-color: #cccfdf;
+}
+
+
+/* Друга частина */
+
+.colors {
+	max-width: 1920px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.gray-color {
+	display: inline-block;
+	background: #F4F4F4;
+	max-width: 826px;
+	padding: 151px 65px 151px 350px;
+	margin-right: 69px;
+}
+
+.smile {
+	max-width: 408px;
+	background: url(../img/smile.jpg) 0 0 / 408px no-repeat;
+	padding-top: 471px;
+}
+
+.gray-subtitle {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.21;
+	text-transform: capitalize;
+	margin-bottom: 13px;
+}
+
+.gray-text {
+	color: #7D7D7D;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+	margin-bottom: 25px;
+}
+
+.gray-button {
+	display: inline-block;
+	color: #37393F;
+	text-align: center;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: capitalize;
+	width: 110px;
+	height: 24px;
+	border-bottom: 3px solid;
+}
+
+.gray-button:hover {
+	background-color: #FFF;
+	box-shadow: 1px 1px 5px 1px #6B77E5;
+}
+
+.gray-button:active {
+	background-color: #c3c6e6;
+}
+
+.white-color {
+	max-width: 675px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 151px;
+}
+
+.white-green {
+	color: #37393F;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	margin-bottom: 16px;
+}
+
+.white-green::before {
+	display: inline-block;
+	content: "";
+	background: url(../img/box.svg);
+	width: 12px;
+	height: 12px;
+}
+
+.white-title {
+	max-width: 413px;
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 10px;
+}
+
+.white-text {
+	color: #7D7D7D;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+	margin-bottom: 48px;
+}
+
+.our-text {
+	width: 596px;
+	color: #7D7D7D;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+	padding-left: 46px;
+}
+
+.white-text p:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.our-vision {
+	max-width: 675px;
+	border: 1px solid #E3E3E3;
+	padding: 28px 41px 28px 38px;
+	margin-bottom: 31px;
+	
+}
+
+.our-vision:hover {
+	box-shadow: 0 0 10px 3px ;
+}
+
+.white-subtitle {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 12px;
+}
+
+.white-subtitle::before {
+	content: "";
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	background: url(../img/vector.svg);
+	margin-right: 14px;
+	margin-bottom: -4px;
+}
+
+.our-mision {
+	max-width: 675px;
+	border: 1px solid #E3E3E3;
+	padding: 28px 41px 28px 38px;
+	margin-bottom: 46px;
+}
+
+.our-mision:hover {
+	box-shadow: 0 0 10px 3px ;
+}
+
+.white-buttom {
+	width: 200px;
+	height: 65px;
+	display: inline-block;
+	background: #6B77E5;
+	color: #FFF;
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: capitalize;
+	padding: 22px 35px;
+}
+
+.white-buttom:hover {
+	border-radius: 5px;
+	box-shadow:
+		0 0 10px 3px #7D7D7D,
+		inset 0 0 10px 1px #c4c4c4;
+}
+
+.white-buttom:active {
+	background-color: #c4c4c4;;
+}
+
+/*Третя частина*/
+
+.work {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 150px 20px;
+}
+
+.work__green {
+	max-width: 140px;
+	margin: 0 auto 16px;
+	text-align: center;
+}
+
+.work__title {
+	color: #37393F;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+	text-transform: capitalize;
+	margin-bottom: 71px;
+}
+
+.work__list {
+	font-size: 0;
+}
+
+.work__item-list {
+	display: inline-block;
+	max-width: 386px;
+	padding: 58px 43px 54px;
+	background: rgb(244, 244, 244) center bottom / 0 0 no-repeat;
+}
+
+.work__item-list:not(:last-child) {
+	margin-right: 31px;
+}
+
+.icon-shield:target,
+.icon-pazle:target,
+.icon-calendar:target {
+	box-shadow: 0 0 8px 3px #37393F;
+}
+
+
+.icon-calendar::before {
+	display: block;
+	content: "";
+	width: 72px;
+	height: 72px;
+	background: url(../img/icon-calendar.svg) no-repeat;
+	margin: -91px auto 19px;
+}
+
+.icon-pazle::before {
+	display: block;
+	content: "";
+	width: 72px;
+	height: 72px;
+	background: url(../img/Icon-pazle.svg) no-repeat;
+	margin: -91px auto 19px;
+}
+
+.icon-shield::before {
+	display: block;
+	content: "";
+	width: 72px;
+	height: 72px;
+	background: url(../img/Icon-shield.svg) no-repeat;
+	margin: -91px auto 19px;
+}
+
+.work__subtitle {
+	color: #37393F;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 16px;
+}
+
+.work__text {
+	width: 300px;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 400;
+	line-height: 1.46;
+	margin-bottom: 37px;
+}
+
+.work__buttom {
+	width: 111px;
+	display: block;
+	color: #6B77E5;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: capitalize;
+	margin: 0 auto;
+	border-bottom: 4px double transparent;
+}
+
+.work__buttom:hover {
+	border-bottom: 4px double #6B77E5;
+	box-shadow: 1px 1px 5px 1px #6B77E5;
+}
+
+.work__buttom:active {
+	background-color: #c3c6e6;
+}
+
+/* Четверта частина */
+
+.benefits {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 20px 20px 100px 20px;
+	font-size: 0;
+}
+
+.benefits__sidebar {
+	max-width: 478px;
+	display: inline-block;
+	padding: 50px 45px 50px 44px;
+	background: #F4F4F4;
+	margin-right: 50px;
+}
+
+.sidebar-article {
+	max-width: 389px;
+}
+
+.sidebar-title {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+}
+
+.sidebar-title::after {
+	display: block;
+	content: "";
+	height: 1px;
+	width: 389px;
+	background: #37393F;
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+
+.sidebar-text {
+	font-weight: 400;
+	line-height: 1.46;
+	max-width: 389px;
+	margin-bottom: 22px;
+	font-size: 18px;
+}
+
+.sidebar-button a:not(:last-child){
+	margin-bottom: 30px;
+}
+
+.sidebar-button a {
+	display: inline-block;
+	color: #FFF;
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: normal;
+	display: inline-block;
+	width: 250px;
+	height: 65px;
+	background: #6B77E5;
+	vertical-align: middle;
+	padding-top: 9px;
+}
+
+.sidebar-button a:hover {
+	box-shadow: inset 0 0 10px 3px #bfc1d6;
+	border-radius: 10px;
+}
+
+.sidebar-button a:active {
+	background: #bfc1d6;
+}
+
+.sidebar-zip::before {
+	vertical-align: middle;
+	content: "";
+	display: inline-block;
+	width: 43px;
+	height: 53px;
+	background: url(../img/icon-zip.svg) 0 0px no-repeat;
+}
+
+.sidebar-pdf::before {
+	vertical-align: middle;
+	content: "";
+	display: inline-block;
+	width: 43px;
+	height: 53px;
+	background: url(../img/icon-pdf.svg) 0 0px no-repeat;
+}
+
+
+
+.benefits__article {
+	display: inline-block;
+	max-width: 692px;
+	vertical-align: middle;
+}
+
+.article-title-block {
+	margin-bottom: 42px;
+}
+
+.article-title {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 13px;
+}
+
+.article-text {
+	font-weight: 400;
+	line-height: 1.46;
+	font-size: 18px;
+}
+
+.article-text:not(:last-child) {
+	margin-bottom: 42px;
+}
+
+.article-subtitle-text {
+	color: #6B77E5;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1/27;
+	margin-bottom: 12px;
+}
+
+.article-subtitle {
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 15px;
+}
+
+.article-text-block {
+	display: inline-block;
+	max-width: 332px;
+	font-size: 0;
+}
+
+.article-list-block {
+	margin-bottom: 50px;
+	font-size: 0;
+}
+
+.article-list-bg {
+	display: inline-block;
+	width: 331px;
+	height: 261px;
+	background: url(../img/desk_flower.png) no-repeat;
+	background-size: cover;
+	margin-right: 29px;
+	vertical-align: top;
+}
+
+.article-subtitle-list {
+	color: #40DDB6;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 21px;
+}
+
+.article-list {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	color: #7D7D7D;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.article-list a:hover {
+	text-decoration: underline;
+}
+
+.article-list a::before {
+	content: "";
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	background: url(../img/vector.svg) no-repeat;
+	vertical-align: middle;
+	margin-right: 6px;
+	opacity: 1;
+}
+
+.article-list a:hover::before {
+	opacity: 0.2;
+}
+
+.article-list li:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+/* ГРА */
+
+.game-block {
+	max-width: 840px;
+	padding: 20px;
+	margin: 0 auto;
+	
+}
+
+.game-title {
+	text-align: center;
+	color: #37393F;
+	font-family: "Poppins", sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 50px;
+	text-transform: capitalize;
+}
+
+.game {
+	width: 800px;
+	height: 800px;
+	padding: 20px;
+	
+	background: url(../img/game-bg.jpg) 0 0 no-repeat;
+	min-width: 600px;
+	font-size: 0;
+}
+
+.game-visibility {
+	visibility: hidden;
+}
+
+.block-1 {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	color: #eb0505;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+
+
+.block-1:hover + .block-2,
+.block-2:hover  {
+	background: #58ade6;
+	visibility: visible;
+}
+
+
+
+.block-2 {
+	width: 660px;
+	height: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.block-3 {
+	width: 100px;
+	height: 220px;
+	margin-left: 660px;
+}
+
+.block-2:hover + .block-3,
+.block-3:hover {
+	background: #58ade6;
+	visibility: visible;
+}
+
+.block-4 {
+	width: 660px;
+	height: 100px;
+	margin-top: -100px;
+}
+
+.block-3:hover + .block-4,
+.block-4:hover {
+	background: #58ade6;
+	visibility: visible;
+}
+
+.block-5 {
+	width: 100px;
+	height: 220px;
+	display: inline-block;
+}
+
+.block-4:hover + .block-5,
+.block-5:hover {
+	background: #58ade6;
+	visibility: visible;
+}
+
+.block-6 {
+	width: 660px;
+	height: 100px;
+	display: inline-block;
+}
+
+.block-5:hover + .block-6,
+.block-6:hover {
+	background: #58ade6;
+	visibility: visible;
+}
+
+.block-7 {
+	width: 60px;
+	height: 120px;
+	margin-left: 700px;
+}
+
+.block-6:hover + .block-7,
+.block-7:hover {
+	background: #58ade6;
+	visibility: visible;
+}
+
+.block-8 {
+	width: 760px;
+	height: 30px;
+}
+
+.block-7:hover + .block-8,
+.block-8:hover {
+	background: #58ade6;
+	visibility: visible;
+}
+
+.block-9 {
+	width: 100px;
+	height: 70px;
+	color: #eb0505;
+	font-weight: 600;
+	font-size: 30px;
+	display: block;
+	text-align: center;
+}
+
+.block-8:hover + .block-9,
+.block-9:hover {
+	background: #58ade6;
+	visibility: visible;
+}
+
+.block-9:active {
+	background: url(../img/salut.jpg) no-repeat;
+	background-size: cover;
+	width: 800px;
+	height: 800px;
+	margin-top: -710px;
+	margin-left: -20px;
+}
