@@ -537,7 +537,7 @@ body {
 }
 @keyframes road-line-8 {
 	0% {
-		right: 2200px;
+		right: 2900px;
 	}
 	100%{
 		right: -200px;
@@ -545,7 +545,7 @@ body {
 }
 @keyframes road-line-9 {
 	0% {
-		right: 1900px;
+		right: 2500px;
 	}
 	100%{
 		right: -200px;
@@ -553,7 +553,7 @@ body {
 }
 @keyframes road-line-10 {
 	0% {
-		right: 1600px;
+		right: 2100px;
 	}
 	100%{
 		right: -200px;
@@ -561,7 +561,7 @@ body {
 }
 @keyframes road-line-11 {
 	0% {
-		right: 1300px;
+		right: 1700px;
 	}
 	100%{
 		right: -200px;
@@ -569,7 +569,7 @@ body {
 }
 @keyframes road-line-12 {
 	0% {
-		right: 1000px;
+		right: 1300px;
 	}
 	100%{
 		right: -200px;
@@ -577,7 +577,7 @@ body {
 }
 @keyframes road-line-13 {
 	0% {
-		right: 700px;
+		right: 900px;
 	}
 	100%{
 		right: -200px;
@@ -585,7 +585,7 @@ body {
 }
 @keyframes road-line-14 {
 	0% {
-		right: 400px;
+		right: 500px;
 	}
 	100%{
 		right: -200px;
@@ -604,12 +604,12 @@ body {
 .road__line {
 	position: absolute;
 	bottom: 100px;
-	left: center;
+	left: auto;
 	width: 200px;
 	height: 9px;
 	background-color: rgb(255, 255, 180);
 	transform: skew(-20deg);
-	animation: road-line 15s linear infinite;
+	/*animation: road-line 15s linear infinite;*/
 }
 
 .road__line:nth-child(1) {
@@ -638,39 +638,39 @@ body {
 }
 .road__line:nth-child(7) {
 	right: 2500px;
-	animation: road-line-7 16s linear 3s forwards, road-line 16s linear 21s infinite;
+	animation: road-line 16s linear 21s infinite;
 }
 .road__line:nth-child(8) {
-	right: 2200px;
-	animation: road-line-8 14s linear 3s forwards, road-line 16s linear 19s infinite;
+	right: 2900px;
+	animation: road-line-8 16s linear 3s forwards, road-line 16s linear 19s infinite;
 }
 .road__line:nth-child(9) {
-	right: 1900px;
-	animation: road-line-9 12s linear 3s forwards, road-line 16s linear 17s infinite;
+	right: 2500px;
+	animation: road-line-9 14s linear 3s forwards, road-line 16s linear 17s infinite;
 }
 .road__line:nth-child(10) {
-	right: 1600px;
-	animation: road-line-10 10s linear 3s forwards, road-line 16s linear 15s infinite;
+	right: 2100px;
+	animation: road-line-10 12s linear 3s forwards, road-line 16s linear 15s infinite;
 }
 .road__line:nth-child(11) {
-	right: 1300px;
-	animation: road-line-11 8s linear 3s forwards, road-line 16s linear 13s infinite;
+	right: 1700px;
+	animation: road-line-11 10s linear 3s forwards, road-line 16s linear 13s infinite;
 }
 .road__line:nth-child(12) {
-	right: 1000px;
-	animation: road-line-12 6s linear 3s forwards, road-line 16s linear 11s infinite;
+	right: 1300px;
+	animation: road-line-12 8s linear 3s forwards, road-line 16s linear 11s infinite;
 }
 .road__line:nth-child(13) {
-	right: 700px;
-	animation: road-line-13 4s linear 3s forwards, road-line 16s linear 9s infinite;
+	right: 900px;
+	animation: road-line-13 6s linear 3s forwards, road-line 16s linear 9s infinite;
 }
 .road__line:nth-child(14) {
-	right: 400px;
-	animation: road-line-14 2.5s linear 3s forwards, road-line 16s linear 7s infinite;
+	right: 500px;
+	animation: road-line-14 4s linear 3s forwards, road-line 16s linear 7s infinite;
 }
 .road__line:nth-child(15) {
 	right: 100px;
-	animation: road-line-15 1s linear 3s forwards, road-line 16s linear 5s infinite;
+	animation: road-line-15 2s linear 3s forwards, road-line 16s linear 5s infinite;
 }
 
 
