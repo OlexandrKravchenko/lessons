@@ -174,7 +174,7 @@ body {
 }
 .item-product__image img {
 	max-width: 100%;
-	max-height: auto;
+	height: auto;
 	transition: all 0.7s;
 }
 .item-product__image:hover img {
@@ -460,9 +460,7 @@ body {
 	line-height: normal;
 }
 .item__status {
-	text-align: end;
-	/*padding-top: 38px;*/
-	
+	text-align: end;	
 }
 .item__detail {
 	display: flex;
