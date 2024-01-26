@@ -64,12 +64,12 @@
 						</div>
 						<div class="form__cell">
 							<label class="form__caption" for="state">State*</label>
-							<select class="form__input" required id="state" name="state">
-								<option value="01">State </option>
-								<option value="02">California</option>
-								<option value="03">Texas</option>
-								<option value="04">Alaska</option>
-								<option value="05">Hawaii</option>
+							<select class="form__input" required id="state" name="state" multiple>
+								<option value="">State </option>
+								<option value="01">California</option>
+								<option value="02">Texas</option>
+								<option value="03">Alaska</option>
+								<option value="04">Hawaii</option>
 							</select>
 						</div>
 						<div class="form__cell">
@@ -111,46 +111,46 @@
 
 					<div class="form__body-check">
 						<div class="form__check-cell">
-							<label class="form__caption" for="f-name">First Name*</label>
-							<input class="form__input" required id="f-name" autocomplete="off" name="f-name"
+							<label class="form__caption" for="name-f">First Name*</label>
+							<input class="form__input" required id="name-f" autocomplete="off" name="name-f"
 								placeholder="First Name" type="text">
 						</div>
 						<div class="form__check-cell">
-							<label class="form__caption" for="l-name">Last Name*</label>
-							<input class="form__input" required id="l-name" autocomplete="off" name="l-name"
+							<label class="form__caption" for="name-l">Last Name*</label>
+							<input class="form__input" required id="name-l" autocomplete="off" name="name-l"
 								placeholder="Last Name" type="text">
 						</div>
 						<div class="form__check-cell">
-							<label class="form__caption" for="country">Country / Region*</label>
-							<input class="form__input" required id="country" autocomplete="off" name="country"
+							<label class="form__caption" for="region">Country / Region*</label>
+							<input class="form__input" required id="region" autocomplete="off" name="region"
 								placeholder="Country / Region" type="text">
 						</div>
 						<div class="form__check-cell">
-							<label class="form__caption" for="company">Company Name</label>
-							<input class="form__input" id="company" autocomplete="off" name="company"
+							<label class="form__caption" for="company-n">Company Name</label>
+							<input class="form__input" id="company-n" autocomplete="off" name="company-n"
 								placeholder="Company (optional)" type="text">
 						</div>
 						<div class="form__check-cell">
-							<label class="form__caption" for="street">Street Address*</label>
-							<input class="form__input" required id="street" autocomplete="off" name="street"
+							<label class="form__caption" for="address">Street Address*</label>
+							<input class="form__input" required id="address" autocomplete="off" name="address"
 								placeholder="House number and street name" type="text">
 						</div>
 						<div class="form__check-cell">
-							<label class="form__caption" for="suite">Apt, suite, unit</label>
-							<input class="form__input" id="suite" autocomplete="off" name="suite"
+							<label class="form__caption" for="apt">Apt, suite, unit</label>
+							<input class="form__input" id="apt" autocomplete="off" name="apt"
 								placeholder="apartment, suite, unit, etc. (optional)" type="text">
 						</div>
 					</div>
 					<!-- 3 cells -->
 					<div class="form__body-3-cell">
 						<div class="form__cell-3">
-							<label class="form__caption" for="city">City*</label>
-							<input class="form__input" required id="city" autocomplete="off" name="city"
+							<label class="form__caption" for="town">City*</label>
+							<input class="form__input" required id="town" autocomplete="off" name="town"
 								placeholder="Town / City" type="text">
 						</div>
 						<div class="form__cell-3">
-							<label class="form__caption" for="state">State*</label>
-							<select class="form__input" required id="state" name="state">
+							<label class="form__caption" for="state-3">State*</label>
+							<select class="form__input" required id="state-3" name="state-3">
 								<option value="01">State</option>
 								<option value="02">California</option>
 								<option value="03">Texas</option>
@@ -159,8 +159,8 @@
 							</select>
 						</div>
 						<div class="form__cell-3">
-							<label class="form__caption" for="code">Postal Code*</label>
-							<input class="form__input" required id="code" autocomplete="off" name="code"
+							<label class="form__caption" for="postal">Postal Code*</label>
+							<input class="form__input" required id="postal" autocomplete="off" name="postal"
 								placeholder="Postal Code" type="text">
 						</div>
 					</div>
@@ -174,8 +174,8 @@
 					<button class="shipping__button-dark button-dark--gap" type="button">Continue to delivery</button>
 
 					<div class="form__checkbox checkbox">
-						<input class="checkbox__input" id="shipping" name="shipping" type="checkbox">
-						<label class="checkbox__label" for="shipping">Save my information for a faster checkout</label>
+						<input class="checkbox__input" id="save" name="save" type="checkbox">
+						<label class="checkbox__label" for="save">Save my information for a faster checkout</label>
 					</div>
 
 				</form>
@@ -287,11 +287,11 @@
 			</div>
 		</main>
 		<footer class="footer">
-			<footer class="footer__container">
+			<div class="footer__container">
 				<h3 class="lable">
 					KravaSanches Inc. 2024
 				</h3>
-			</footer>
+			</div>
 		</footer>
 	</div>
 </body>
