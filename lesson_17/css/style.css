@@ -214,6 +214,7 @@ body {
 	display: flex;
 	margin: 0 -15px;
 	flex-wrap: wrap;
+	row-gap: 30px;
 }
 .dark__card {
 	color: #FFF;
