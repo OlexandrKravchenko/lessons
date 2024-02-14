@@ -267,6 +267,24 @@ body {
 	}
 	.menu__item--parent .menu__link::after {
 		display: none;
+	}
+	.sub-menu {
+		position: relative;
+		visibility: visible;
+		opacity: 1;
+		padding-top: 10px;
+		transform: translate(0px, 0px);
+	}
+	.sub-menu__list {
+		width: 100%;
+		border-radius: 0;
+	}
+	.sub-menu__item:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.sub-menu__link {
+		color: #000;
+		font-size: 24px;
 	}	
 }
 @media (max-width: 500px) {
