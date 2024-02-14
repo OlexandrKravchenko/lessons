@@ -65,16 +65,12 @@ body {
 .menu {
 	flex: 1 1 auto;
 }
-.menu__body {
-}
 .menu__list {
 	display: flex;
 	justify-content: center;
 	column-gap: 36px;
 	row-gap: 8px;
 	flex-wrap: wrap;
-}
-.menu__item {
 }
 .menu__link {
 	font-family: "Merriweather";
@@ -144,8 +140,7 @@ body {
 	background-color: rgba(255, 147, 74, 1);
 	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
-.sub-menu__item {
-}
+
 .sub-menu__item:not(:last-child) {
 	margin-bottom: 10px;
 }
@@ -446,8 +441,6 @@ body {
 	width: 100%;
 	border-radius: 215px;
 }
-.hero__content {
-}
 @media (min-width: 992px) {
 	.hero__content {
 		flex-basis: 31.625%;
@@ -571,4 +564,5 @@ body {
 }
 .footer__container {
 	padding: 15px;
+	text-align: center;
 }

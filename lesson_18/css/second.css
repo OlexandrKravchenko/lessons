@@ -69,8 +69,7 @@ body {
 .menu {
 	flex: 1 1 auto;
 }
-.menu__body {
-}
+
 .menu__list {
 	display: flex;
 	justify-content: center;
@@ -78,8 +77,7 @@ body {
 	row-gap: 8px;
 	flex-wrap: wrap;
 }
-.menu__item {
-}
+
 .menu__item--active .menu__link{
 	font-weight: 700;
 	color: #000;
@@ -145,8 +143,6 @@ body {
 	background-color: rgb(14, 51, 61, 0.3);
 	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
-.sub-menu__item {
-}
 .sub-menu__item:not(:last-child) {
 	margin-bottom: 10px;
 }
@@ -158,10 +154,6 @@ body {
 	.sub-menu__link:hover {
 		text-decoration: underline;
 	}
-}
-.header__button {
-}
-.button {
 }
 .button__dark {
 	padding: 7px 27px;
@@ -293,8 +285,6 @@ body {
 }
 /*hero*/
 
-.page__hero {
-}
 .hero {
 	padding-top: 206px;
 }
@@ -324,8 +314,7 @@ body {
 	line-height: 1.5;
 	margin-bottom: 48px;
 }
-.hero__button {
-}
+
 .button {
 	align-items: center;
 }
@@ -356,8 +345,6 @@ body {
 		text-shadow: 2px 2px 5px #000;
 	}
 }
-.hero__images {
-}
 .image {
 	flex: 0 1 524px;
 	display: flex;
@@ -368,13 +355,11 @@ body {
 	width: 100%;
 }
 .image__lft {
-	flex: 1 1 246px;
-	
+	flex: 1 1 246px;	
 	padding-top: 69px;
 }
 .image__rgt {
 	flex: 1 1 246px;
-	
 	padding-bottom: 69px;
 }
 @media (max-width: 1060px) {
@@ -445,9 +430,9 @@ body {
 	background-color: #0E333D;
 }
 .footer__container {
+	padding: 15px 0;
 }
 .footer__title {
-	padding: 15px 0;
 	text-align: center;
 	font-family: "Merriweather";
 	font-size: 16px;
